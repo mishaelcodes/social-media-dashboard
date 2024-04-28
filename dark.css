@@ -1,0 +1,38 @@
+.dark-body {
+  background: #1e202a;
+  transition: 1s;
+}
+
+.dark-top-BG {
+  background: #1f212e;
+  transition: 1s;
+}
+
+.dark-total-followers {
+  color: #8b97c6;
+}
+
+.dark-container,
+.dark-today-card {
+  background-color: #252a41;
+  transition: 1s;
+}
+
+.dark-followers,
+.dark-profile-link {
+  color: #8c98c7;
+  transition: 1s;
+}
+
+.dark-heading {
+  color: #fff;
+}
+
+.dark-container:hover,
+.dark-today-card:hover {
+  background-color: hsl(229, 27%, 27%);
+}
+
+.dark-attribution {
+  color: #8c98c7;
+}

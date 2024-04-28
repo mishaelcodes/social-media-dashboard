@@ -1,0 +1,162 @@
+@media screen and (min-width: 1024px) {
+  .body {
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 1440px;
+    min-height: 100vh;
+  }
+
+  header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .top-BG {
+    width: 100%;
+    max-height: 35%;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0 0 15px 15px;
+  }
+
+  #header-content {
+    width: 50%;
+    padding-bottom: 1.2rem;
+    margin: 2rem 1rem 1rem;
+    border-bottom: none;
+    background-color: transparent;
+  }
+
+  #header-content h1 {
+    font-size: 1.4rem;
+  }
+
+  #dark-mode {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #dark-mode .paragraph{
+    font-size: .7rem;
+  }
+  .paragraph {
+    margin-bottom: 1.9rem;
+    padding: 0.5rem 1rem;
+    color: #63687e;
+    font-weight: 700;
+    align-self: flex-start;
+  }
+
+  #header-content > p {
+    color: #63687e;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .overview {
+    max-width: 80%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: calc(60%);
+  }
+
+  .container {
+    min-width: 23%;
+    height: 25vh;
+    margin: 0.6rem;
+    padding: 5.4rem 1rem;
+  }
+
+  #fb {
+    border-top-width: 3.5px;
+  }
+  #twitter {
+    border-top-width: 3.5px;
+  }
+  #youtube {
+    border-top-width: 3.5px;
+  }
+
+  .container h2 {
+    font-size: 3rem;
+  }
+
+  .followers {
+    font-size: small;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+  }
+
+  .profile-link,
+  .update {
+    text-decoration: none;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+
+  /* styling for today's stats */
+
+  #overview-today {
+    min-width: 80%;
+    max-width: 80%;
+  }
+
+  #overview-today .paragraph {
+    margin-bottom: 0rem;
+    font-size: 1rem;
+  }
+
+  .today-stats {
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: -1rem;
+  }
+
+  .today-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    scale: 0.9;
+    height: fit-content;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    transition: 1s;
+  }
+
+  .left-side,
+  .right-side {
+    height: 100%;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+
+  .left-side {
+    width: 100%;
+    padding: 0 1.2rem 0 0;
+  }
+
+  .right-side {
+    padding: 0 0 0 1.2rem;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 3rem auto 1rem;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
